@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 
 # Hardcoded API keys (for testing only)
 openai_api_key = "sk-proj-lNVSqo4gdKCJ4uZbruSOT3BlbkFJeCGgdIZtDoudFkWAGWf4"
-tavily_api_key = "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"
+tavily_api_key = "tvly"
 
 # Debug statements
 # st.write(f"OPENAI_API_KEY: {openai_api_key}")
