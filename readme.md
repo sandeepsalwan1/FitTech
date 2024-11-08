@@ -8,7 +8,7 @@
 <p align="center">
 	<img src="https://img.shields.io/github/license/sandeepsalwan1/AnimalCare?style=flat&logo=opensourceinitiative&logoColor=white&label=License&color=0080ff" alt="MIT License">
 	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/FitTech?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/count/sandeepsalwan1/FitTech?style=default&color=0080ff" alt="repo-language-count">
+
 </p>
 <p align="center"><!-- default option, no dependency badges. -->
 </p>
