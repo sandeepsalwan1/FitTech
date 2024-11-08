@@ -196,10 +196,9 @@ Run the test suite using the following command:
 ---
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
+- [X] **`Task 1`**: <strike>Implement login.</strike>
+- [ ] **`Task 2`**: Create more agents.
+- [ ] **`Task 3`**: More userfriendly interface with explanations.
 ---
 
 ## 🔰 Contributing
