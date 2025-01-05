@@ -1,3 +1,10 @@
+## AnimalCare
+FitTech integrates AI-powered fitness and nutrition into one seamless platform. By providing personalized workouts, meal plans, and event discovery, FitTech helps users stay motivated and reach their health goals.
+
+<p align="center">
+  <img src="resources/example.jpeg" alt="Example Image" width="100%">
+</p>
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
