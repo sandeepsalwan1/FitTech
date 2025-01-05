@@ -1,5 +1,5 @@
-## AnimalCare
-FitTech integrates AI-powered fitness and nutrition into one seamless platform. By providing personalized workouts, meal plans, and event discovery, FitTech helps users stay motivated and reach their health goals.
+## HealthTech
+HealthTech integrates AI-powered fitness and nutrition into one seamless platform. By providing personalized workouts, meal plans, and event discovery, we help users stay motivated and reach their health goals.
 
 <p align="center">
   <img src="resources/example.jpeg" alt="Example Image" width="100%">
@@ -8,13 +8,13 @@ FitTech integrates AI-powered fitness and nutrition into one seamless platform. 
 <p align="center">
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
-<p align="center"><h1 align="center">FITTECH</h1></p>
+<p align="center"><h1 align="center">HEALTHTECH</h1></p>
 <p align="center">
 	<em>Empowering Your Health Journey with AI Innovation</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/sandeepsalwan1/AnimalCare?style=flat&logo=opensourceinitiative&logoColor=white&label=License&color=0080ff" alt="MIT License">
-	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/FitTech?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/HealthTech?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 
 </p>
 <p align="center"><!-- default option, no dependency badges. -->
@@ -44,7 +44,7 @@ FitTech integrates AI-powered fitness and nutrition into one seamless platform. 
 
 ## 📍 Overview
 
-FitTech revolutionizes personal fitness and nutrition management by integrating AI-driven coaching and event discovery into one seamless platform. Designed for health enthusiasts and individuals seeking tailored fitness guidance, FitTech offers personalized training plans, nutritional advice based on real-time image analysis, and access to relevant health events. This innovative solution ensures users stay engaged and informed on their wellness journey.
+HealthTech revolutionizes personal fitness and nutrition management by integrating AI-driven coaching and event discovery into one seamless platform. Designed for health enthusiasts and individuals seeking tailored fitness guidance, HealthTech offers personalized training plans, nutritional advice based on real-time image analysis, and access to relevant health events. This innovative solution ensures users stay engaged and informed on their wellness journey.
 
 ---
 
@@ -66,7 +66,7 @@ FitTech revolutionizes personal fitness and nutrition management by integrating 
 ## 📁 Project Structure
 
 ```sh
-└── FitTech/
+└── HealthTech/
     ├── logo.png
     ├── readme.md
     ├── requirements.txt
@@ -77,13 +77,13 @@ FitTech revolutionizes personal fitness and nutrition management by integrating 
 
 ### 📂 Project Index
 <details open>
-	<summary><b><code>FITTECH/</code></b></summary>
+	<summary><b><code>HealthTech/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/requirements.txt'>requirements.txt</a></b></td>
+				<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/requirements.txt'>requirements.txt</a></b></td>
 				<td>- Manages and specifies the versions of libraries and dependencies required for the project, ensuring compatibility and preventing conflicts across the development environment<br>- It includes frameworks and tools like FastAPI, Flask, and numpy, which are essential for web development and data handling within the application.</td>
 			</tr>
 			</table>
@@ -100,19 +100,19 @@ FitTech revolutionizes personal fitness and nutrition management by integrating 
 						<blockquote>
 							<table>
 							<tr>
-								<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/Home.py'>Home.py</a></b></td>
+								<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/Home.py'>Home.py</a></b></td>
 								<td>- Home.py serves as the user authentication and initial interface module for the myfitnessagent application<br>- It integrates user login validation, initializes the OpenAI client with API keys, and manages session states<br>- Upon successful login, it presents options for selecting different fitness agents and includes a logout feature to manage user sessions effectively.</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/main.py'>main.py</a></b></td>
+								<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/main.py'>main.py</a></b></td>
 								<td>- Main.py establishes a FastAPI application that integrates AI-driven conversational capabilities and event search functionalities<br>- It utilizes a ReAct Search Agent with memory and search tools for processing event-related queries, and sets a foundation for a future nutrition-related endpoint.</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/base_model_utils.py'>base_model_utils.py</a></b></td>
+								<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/base_model_utils.py'>base_model_utils.py</a></b></td>
 								<td>- Base_model_utils.py facilitates interaction with OpenAI's API using Streamlit, handling tasks such as sending chat and image model requests<br>- It processes user-uploaded images, extracts nutritional information, and updates nutrition plans accordingly, providing tailored feedback to users based on the analysis of the images.</td>
 							</tr>
 							<tr>
-								<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/prompts.py'>prompts.py</a></b></td>
+								<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/prompts.py'>prompts.py</a></b></td>
 								<td>- `sessions/FirstTry/app/prompts.py` manages the interaction logic for a nutrition and fitness coaching application<br>- It guides the creation of personalized training and nutrition plans based on user goals, orchestrating the dialogue flow through structured prompts and responses, and ensures user engagement by maintaining clarity and focus in communication.</td>
 							</tr>
 							</table>
@@ -121,15 +121,15 @@ FitTech revolutionizes personal fitness and nutrition management by integrating 
 								<blockquote>
 									<table>
 									<tr>
-										<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/pages/3_Nutrition_Agent_[RAG].py'>3_Nutrition_Agent_[RAG].py</a></b></td>
+										<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/pages/3_Nutrition_Agent_[RAG].py'>3_Nutrition_Agent_[RAG].py</a></b></td>
 										<td>- Manages the user interface for a nutrition-focused query system within a broader health and fitness application<br>- It facilitates user authentication, collects dietary preferences, and communicates with a backend service to fetch tailored meal options<br>- The page also incorporates branding elements like logos and titles to enhance user experience.</td>
 									</tr>
 									<tr>
-										<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/pages/1_Event_Agent_[ReAct Search].py'>1_Event_Agent_[ReAct Search].py</a></b></td>
+										<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/pages/1_Event_Agent_[ReAct Search].py'>1_Event_Agent_[ReAct Search].py</a></b></td>
 										<td>- Manages the user interface for a health event search feature within a larger health technology application<br>- It authenticates users, collects input on event preferences, and communicates with a backend service to retrieve and display relevant athletic event information based on user specifications.</td>
 									</tr>
 									<tr>
-										<td><b><a href='https://github.com/sandeepsalwan1/FitTech/blob/master/sessions/FirstTry/app/pages/2_Training_Agent_[CoT].py'>2_Training_Agent_[CoT].py</a></b></td>
+										<td><b><a href='https://github.com/sandeepsalwan1/HealthTech/blob/master/sessions/FirstTry/app/pages/2_Training_Agent_[CoT].py'>2_Training_Agent_[CoT].py</a></b></td>
 										<td>- Manages user interactions and data processing for a HealthTech application, facilitating real-time chat with a coach and image-based nutritional analysis<br>- It maintains session-specific chat and health tracking logs, dynamically updating training and nutrition plans based on user inputs and AI-generated advice.</td>
 									</tr>
 									</table>
@@ -148,7 +148,7 @@ FitTech revolutionizes personal fitness and nutrition management by integrating 
 
 ### ☑️ Prerequisites
 
-Before getting started with FitTech, ensure your runtime environment meets the following requirements:
+Before getting started with HealthTech, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** Python
 - **Package Manager:** Pip
@@ -156,18 +156,18 @@ Before getting started with FitTech, ensure your runtime environment meets the f
 
 ### ⚙️ Installation
 
-Install FitTech using one of the following methods:
+Install HealthTech using one of the following methods:
 
 **Build from source:**
 
-1. Clone the FitTech repository:
+1. Clone the HealthTech repository:
 ```sh
-❯ git clone https://github.com/sandeepsalwan1/FitTech
+❯ git clone https://github.com/sandeepsalwan1/HealthTech
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd FitTech
+❯ cd HealthTech
 ```
 
 3. Install the project dependencies:
@@ -183,7 +183,7 @@ Install FitTech using one of the following methods:
 
 
 ### 🤖 Usage
-Run FitTech using the following command:
+Run HealthTech using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
@@ -210,9 +210,9 @@ Run the test suite using the following command:
 
 ## 🔰 Contributing
 
-- **💬 [Join the Discussions](https://github.com/sandeepsalwan1/FitTech/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/sandeepsalwan1/FitTech/issues)**: Submit bugs found or log feature requests for the `FitTech` project.
-- **💡 [Submit Pull Requests](https://github.com/sandeepsalwan1/FitTech/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/sandeepsalwan1/HealthTech/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/sandeepsalwan1/HealthTech/issues)**: Submit bugs found or log feature requests for the `HealthTech` project.
+- **💡 [Submit Pull Requests](https://github.com/sandeepsalwan1/HealthTech/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -220,7 +220,7 @@ Run the test suite using the following command:
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/sandeepsalwan1/FitTech
+   git clone https://github.com/sandeepsalwan1/HealthTech
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -243,8 +243,8 @@ Run the test suite using the following command:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/sandeepsalwan1/FitTech/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=sandeepsalwan1/FitTech">
+   <a href="https://github.com{/sandeepsalwan1/HealthTech/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=sandeepsalwan1/HealthTech">
    </a>
 </p>
 </details>
